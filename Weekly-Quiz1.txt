@@ -1,0 +1,100 @@
+Question 1: 
+Accept two integer numbers from a user and return their product and  if the product is greater than 1000, then return their sum.
+
+Expected output:
+Enter first number 10
+Enter second number 20
+The result is 200
+
+Question 2: 
+Given a range of first 10 numbers, Iterate from start number to the end number and print the sum of the current number and previous number.
+
+Expected Output:
+Printing current and previous number sum in a given range(10)
+Current Number 0 Previous Number  0  Sum:  0
+Current Number 1 Previous Number  0  Sum:  1
+Current Number 2 Previous Number  1  Sum:  3
+Current Number 3 Previous Number  2  Sum:  5
+Current Number 4 Previous Number  3  Sum:  7
+Current Number 5 Previous Number  4  Sum:  9
+Current Number 6 Previous Number  5  Sum:  11
+Current Number 7 Previous Number  6  Sum:  13
+Current Number 8 Previous Number  7  Sum:  15
+Current Number 9 Previous Number  8  Sum:  17
+
+Question 3: 
+Accept string from a user and display only those characters which are present at an even index number.
+For example str = "pynative" so you should display ‘p’, ‘n’, ‘t’, ‘v’.
+
+Expected Output:
+Enter String  pynative
+Orginal String is  pynative
+Printing only even index chars
+index[ 0 ] p
+index[ 2 ] n
+index[ 4 ] t
+index[ 6 ] v
+
+Question 4: 
+Given a string and an integer number n, remove characters from a string starting from zero up to n and return a new string.
+For example, removeChars("pynative", 4) so output must be tive. Note: n must be less than the length of the string.
+
+Question 5: 
+Given a list of numbers, Iterate it and print only those numbers which are divisible of 5.
+Given list is  [10, 20, 33, 46, 55]
+
+Expected output:
+Given list is  [10, 20, 33, 46, 55]
+Divisible of 5 in a list
+10
+20
+55
+
+Question 6: 
+Given a list of numbers, return True if first and last number of a list is same.
+Given list is  [10, 20, 30, 40, 10]
+Given list is  [10, 20, 30, 40, 50]
+
+Expected Output:
+Given list is  [10, 20, 30, 40, 10]
+result is True
+Given list is  [10, 20, 30, 40, 50]
+result is False
+
+Question 7: 
+Return the total count of string “Emma” appears in the given string.
+Given string is “Emma is good developer. Emma is a writer”
+
+Expected Output:
+Emma appeared 2 times
+
+Question 8:
+Print the following pattern
+
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5
+
+Question 9: 
+Reverse a given number and return true if it is the same as the original number.
+numbers - 121,125
+
+Expected Output:
+
+original number 121
+The original and reverse number is the same: True
+original number 125
+The original and reverse number is the same: False
+True
+
+Question 10: Given a two list of numbers create a new list such that new list should contain only odd numbers from the first list and even numbers from the second list.
+First List  [10, 20, 23, 11, 17]
+Second List  [13, 43, 24, 36, 12]
+
+Expected Output:
+
+First List  [10, 20, 23, 11, 17]
+Second List  [13, 43, 24, 36, 12]
+result List is [23, 11, 17, 24, 36, 12]
